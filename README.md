@@ -1,5 +1,5 @@
-# MeusProjetos
-# Repositorio para as TADS
+# TADS
+# Repository for TADS
 # TADS:
 	STACK (Static/Dinamic)
 	QUEUE (Static/Dinamic)
