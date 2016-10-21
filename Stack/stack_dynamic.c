@@ -40,4 +40,3 @@ elem top(STACK * S)
 		return -1;
 	return S->top->e;
 }
-}
