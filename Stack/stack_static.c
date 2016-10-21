@@ -37,7 +37,7 @@ int size(STACK * S)
 elem top()
 {
 	if (isEmpty(S))
-		return;
+		return -1;
 	S->top--;
 }
 

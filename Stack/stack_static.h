@@ -13,10 +13,10 @@ typedef struct stack
 // Create stack
 void create(STACK * S);
 
-// Insert the stack
+// Insert in stack
 void push(STACK * S, elem e);
 
-// Remove the stack
+// Remove of stack
 void pop(STACK * S);
 
 // Check if is empty
