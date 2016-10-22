@@ -9,7 +9,7 @@ void create(STACK * S)
 
 int isEmpty(STACK * S)
 {
-	(S->top == NULL) ? return TRUE : return FALSE;
+	return (S->top == NULL) ? TRUE : FALSE;
 }
 
 int size(STACK * S)
@@ -23,6 +23,7 @@ void push(STACK * S, elem e)
 	no->e = e;
 	no->next = S->top;
 	S->top = no;
+	S->size++;
 }
 
 void pop(STACK * S)
@@ -31,6 +32,7 @@ void pop(STACK * S)
 		return;
 	NO * aux = S->top;
 	S->top = S->top->next;
+	S->size--;
 	free(aux);
 }
 

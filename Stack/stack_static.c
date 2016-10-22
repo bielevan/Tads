@@ -7,12 +7,12 @@ void create(STACK * S)
 
 int isEmpty(STACK * S)
 {
-	(S->top == -1) ? return TRUE : return FALSE;
+	return (S->top == -1) ? TRUE : FALSE;
 }
 
 int isFull(STACK * S)
 {
-	(S->top == MAX-1) ? return TRUE : return FALSE;
+	return (S->top == MAX-1) ? TRUE : FALSE;
 }
 
 void push(STACK * S, elem e)
