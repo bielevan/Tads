@@ -1,6 +1,4 @@
-//
 typedef int elem;
-// Priority
 typedef int p;
 
 typedef struct no
