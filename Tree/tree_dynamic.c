@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "tree_dynamic.h"
 
 void create(TREE * t)
