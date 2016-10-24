@@ -17,7 +17,7 @@ int isFull(QUEUE * Q)
 	return (Q->start+1 == Q->top) ? TRUE : FALSE:
 }
 
-void insert(QUEUE * Q, elem e)
+void push(QUEUE * Q, elem e)
 {
 	if (isFull(Q))
 		return;

@@ -13,7 +13,7 @@ typedef struct queue
 }QUEUE;
 
 void create(QUEUE * Q);
-void insert(QUEUE * Q, elem e);
+void push(QUEUE * Q, elem e);
 void pop(QUEUE * Q);
 elem top(QUEUE * Q);
 int size(QUEUE * Q);
