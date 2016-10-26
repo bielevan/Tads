@@ -63,4 +63,5 @@ void remover(B * b, int pos)
 		return;
 	b->vet[pos].prox = b->proximo;
 	b->proximo = pos;
+	b->tamanho--;
 }
