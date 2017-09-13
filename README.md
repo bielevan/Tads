@@ -1,9 +1,9 @@
 # TADS
 # Repository for TADS
 # TADS:
-	STACK (Static/Dynamic)
-	QUEUE (Static/Dynamic/Priority)
-	LIST  (Static/Dynamic/Priority/Generalized)
-	MEMORY BANK  (Static/Dynamic)
-	TREE  (Static/Dynamic/Avl/Multiple)
+	PILHA (Estatica/Dinamica)
+	Fila (Estatica/Dinamica/Prioridade)
+	Lista  (Estatica/Dinamica/Prioridade/Generica)
+	Banco de Memoria  (Estatica/Dinamica)
+	Arvore  (Estatica/Dinamica/Avl/Multipla)
 	GRAFO	
