@@ -1,4 +1,3 @@
-# TADS
 # Repository for TADS
 # TADS:
 	PILHA (Estatica/Dinamica)
